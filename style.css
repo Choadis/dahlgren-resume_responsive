@@ -139,16 +139,12 @@ li{
   padding: 0 10px 0 10px;
 }
 @media screen and (max-width: 780px) {
-.box2{
-  display: block;
-  margin; 0 auto;
-}
 .edu-skills{
-  height: 250px;
+  height: 175px;
   display: block;
 }
 .bar{
-  width: 580px;
+  width: 100%;
 }
 .column{
   display: block;
@@ -159,11 +155,25 @@ section{
   display: block;
 }
 body{
-  width: 780px;
+  width: 680px;
 }
 *{
   display: inline-block;
   text-align: center;
 }
-
+.site-header{
+  display: grid;
+  float: left;
+  height: 100px;
+}
+.footer, .contact2, .contact{
+  display: grid;
+  margin: 0 auto;
+}
+.heading{
+  margin: 10px 0 10px 0;
+}
+.footer{
+  width: 680px;
+}
 }
