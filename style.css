@@ -79,6 +79,7 @@ body{
   width: 45%;
   display: inline-block;
   margin: 20px;
+  position: relative;
 }
 .box2{
   height: 75px;
@@ -86,6 +87,7 @@ body{
   float: right;
   display: inline-block;
   margin: 20px;
+  position: relative;
 }
 .edu-skills{
   height: 150px;
@@ -135,4 +137,33 @@ li{
 .block{
   display: block;
   padding: 0 10px 0 10px;
+}
+@media screen and (max-width: 780px) {
+.box2{
+  display: block;
+  margin; 0 auto;
+}
+.edu-skills{
+  height: 250px;
+  display: block;
+}
+.bar{
+  width: 580px;
+}
+.column{
+  display: block;
+  float: left;
+  column-count: 1;
+}
+section{
+  display: block;
+}
+body{
+  width: 780px;
+}
+*{
+  display: inline-block;
+  text-align: center;
+}
+
 }
